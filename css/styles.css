@@ -1,0 +1,145 @@
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+}
+.logo-blue {
+color: #2196f3;
+}
+.logo-black {
+    color: #000000
+}
+.logo-white {
+    color: #ffffff;
+}
+.titel {
+    background-color: #2f303a;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+
+
+}
+.button-title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        cursor: pointer;
+    font-family: inherit;
+     color: #ffffff;
+    background-color: #2196f3;
+}
+
+
+.nav-header {
+     font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    color: #212121;
+   }
+   .nav-header:hover   {
+       color: #2196F3
+   }
+
+body {     
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    
+
+}
+ul {
+    list-style: none;
+}
+
+
+.section-text {
+
+}
+.section-title {
+        
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        }
+.text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        color: #757575;
+      }
+
+   .name {
+    
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        
+
+   }
+.fhoto-text {
+    
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
+        color: #757575;        
+}
+h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+       }
+       
+.footer {
+    background-color: #2f303a;
+}
+.adress-link {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        text-decoration: none;
+        color: #ffffff;
+    letter-spacing: 0.03em;}
+        
+.adress {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    
+}
+
+
+
+.button-portfolio {    
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        cursor: pointer;
+        background: #f5f4fa;
+     }
+           .button-portfolio:hover{
+           background-color: #2196F3;} 
+
+.portfolio-section {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-text {
+    
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        color: #757575;
+       
+}
