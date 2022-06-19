@@ -22,30 +22,52 @@ color: #2196f3;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
-
-
+   text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.section-button {      
+        background: #2f303a;
 }
 .button-title {
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
         cursor: pointer;
-    font-family: inherit;
-     color: #ffffff;
+        font-family: inherit;
+        letter-spacing: 0.06em;
+        color: #ffffff;
     background-color: #2196f3;
 }
-
-
 .nav-header {
      font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
+    letter-spacing: 0.02em;
     color: #212121;
    }
-   .nav-header:hover   {
-       color: #2196F3
+   .current {
+       color: #2196f3;
+   }
+   .nav-header:hover,
+   .nav-header:focus   {
+       color: #2196f3;
+   }
+   .adress-header {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        text-decoration: none;
+        letter-spacing: 0.02em;
+        color: #757575;
+   }
+   .current-adress {
+    color: #2196f3;
+   }
+   .adress-header:hover,
+   .adress-header:focus {
+    color: #2196f3;
    }
 
 body {     
@@ -62,84 +84,109 @@ ul {
 .section-text {
 
 }
-.section-title {
-        
+.section-title {        
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
         }
 .text {
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
+        letter-spacing: 0.03em;
         color: #757575;
       }
 
-   .name {
+.name {
     
         font-weight: 500;
         font-size: 16px;
         line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
         
 
    }
-.fhoto-text {
-    
-        font-weight: 400;
+.fhoto-text {           
         font-size: 16px;
         line-height: 1.18;
-        color: #757575;        
+        color: #757575; 
+        text-align: center;
+        letter-spacing: 0.03em;
 }
-h2 {
+.section-work {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
        }
-       
 .footer {
-    background-color: #2f303a;
-}
+               width: 1600px;
+               height: 252px;
+               left: 0px;
+               top: 2097px;
+               background-color: #2f303a;
+           }
+
 .adress-link {
+        font-style: normal;
         font-family: 'Roboto';
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         text-decoration: none;
         color: #ffffff;
-    letter-spacing: 0.03em;}
-        
+    letter-spacing: 0.03em;
+}
+ .adress-link:hover {
+        color: #2196F3
+}
 .adress {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    
+    }
+.adress:hover,
+.adress:focus {
+    color: #2196F3
 }
 
-
-
+ 
 .button-portfolio {    
+        font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
         cursor: pointer;
         background: #f5f4fa;
+        letter-spacing: 0.03em;        
+        color: #212121;
      }
-           .button-portfolio:hover{
-           background-color: #2196F3;} 
-
+         .current-button {
+             background-color: #2196F3;
+             color: #fff;
+         }
+.button-portfolio:hover,
+.button-portfolio:focus {
+        background-color: #2196F3;
+        color: #fff;
+        } 
+       
 .portfolio-section {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
-.portfolio-text {
-    
-        font-weight: 400;
+.portfolio-text {          
         font-size: 16px;
         line-height: 1.88;
+        letter-spacing: 0.03em;
         color: #757575;
        
 }
