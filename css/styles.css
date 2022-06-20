@@ -62,9 +62,7 @@ color: #2196f3;
         letter-spacing: 0.02em;
         color: #757575;
    }
-   .current-adress {
-    color: #2196f3;
-   }
+  
    .adress-header:hover,
    .adress-header:focus {
     color: #2196f3;
